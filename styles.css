@@ -1,0 +1,140 @@
+/* TAG SELECTOR */
+body {
+  width: 100vw;
+    height: 100%;
+}
+
+/* CLASS SELECTOR */
+.flex-container {
+  border-radius: 7.5px;
+  width: 60vw;
+  margin-left: 20vw;
+  margin-top: 8%;
+  margin-bottom: 7vh;
+  display: flex;
+  flex-direction: row;
+  height: 70%;
+  overflow: hidden;
+}
+.card{
+  height: 80%;
+  width: 80vw;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+.first{
+  background-color: hsl(31, 77%, 52%);
+}
+.second{
+  background-color: hsl(184, 100%, 22%);
+}
+.third{
+  background-color: hsl(179, 100%, 13%);
+}
+.card > h1 {
+    font-family: "Big Shoulders Display", cursive;
+    margin-top: 10%;
+    margin-left: 10vw;
+    font-size: 36px;
+    color: hsl(0, 0%, 95%);
+}
+.card > p {
+    font-family: "Lexend", sans-serif;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 10%;
+    font-size: 15px;
+}
+.icon {
+    margin-top: 10%;
+    margin-left: 10vw;
+}
+.btn {
+    background: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+    border-radius: 20px;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 1rem;
+}
+
+.box1btn {
+    color: hsl(31, 77%, 52%);
+    background: hsl(0, 0%, 95%);
+}
+
+.box2btn {
+    color: hsl(184, 100%, 22%);
+    background: hsl(0, 0%, 95%);
+}
+
+.box3btn {
+    color: hsl(179, 100%, 13%);
+    background: hsl(0, 0%, 95%);
+}
+
+.box1btn:hover {
+    background: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+}
+
+.box2btn:hover {
+    background: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+}
+
+.box3btn:hover {
+    background: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+}
+@media only screen and (min-width: 1350px) {
+
+    body {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .container {
+        margin-top: 20vh;
+        margin-bottom: 20vh;
+        margin-left: 20vw;
+        flex-direction: row;
+        height: 60vh;
+        width: 60vw;
+        overflow: hidden;
+        border-radius: 7.5px;
+    }
+
+    .card {
+        width: 33.333333%;
+        height: 100%;
+    }
+
+    .icon {
+        margin-left: 3vw;
+    }
+
+    .card > p {
+        margin-left: 3vw;
+        margin-right: 3vw;
+        word-spacing: 7.5px;
+        margin-bottom:  5%;
+    }
+
+    .card > h1 {
+        margin-left: 3vw;
+        margin-right: 3vw;
+        font-size: 48px;
+    }
+
+    .btn {
+        margin-top: 5%;
+        margin-bottom: 5vh;
+        margin-left: 3vw;
+        border: 2px solid hsl(0, 0%, 95%);
+        border-radius: 30px;
+        width: 8.5vw;
+        height: 6vh;
+
+        font-size: 1.25rem;
+    }
+}
